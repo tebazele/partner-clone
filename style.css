@@ -5,3 +5,16 @@
 .box-shadow {
     box-shadow: 0px 0px 20px gray;
 }
+
+iframe {
+    width: 100%;
+}
+
+.cool-img {
+    height: 40vh;
+    object-fit: cover;
+}
+
+.select:hover {
+    box-shadow: 0px 0px 40px gray;
+}
