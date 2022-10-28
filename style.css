@@ -1,5 +1,5 @@
 .bg-image {
-    background-image: url(https://images.unsplash.com/photo-1502741509793-1bf00d85aeff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNhbmR5JTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+    background: url(https://images.unsplash.com/photo-1502741509793-1bf00d85aeff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNhbmR5JTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60), hsl(0, 0%, 100%);
     background-size: cover;
     background-position: center;
     min-height: 50vh;
@@ -8,6 +8,11 @@
 .cool-img {
     height: 40vh;
     object-fit: cover;
+}
+
+.serious-border {
+    border: 15px solid white;
+    box-shadow: 0px 0px 15px gray;
 }
 
 .nav-bar {
@@ -51,8 +56,18 @@ iframe {
     cursor: pointer;
 }
 
+.nav-select: {
+    font-size: 12px;
+}
+
 .nav-select:hover {
     background-color: pink;
     cursor: pointer;
     transition: all .2s linear;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.move-left {
+    transform: translateX(-20px);
 }
